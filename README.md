@@ -1,2 +1,1 @@
-examples
-========
+Contains various example test suites
