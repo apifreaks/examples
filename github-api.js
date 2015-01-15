@@ -24,7 +24,7 @@ describe('Github Public API ', function() {
             expect(res.status).to.equal(200);
             expect(res.body).to.be.an('object');
             expect(res.body.default_branch).to.equal('master');
-            expect(res.body.description).to.not.be.empty();
+            expect(res.body.description).to.not.be.empty;
             
             done();
         });
